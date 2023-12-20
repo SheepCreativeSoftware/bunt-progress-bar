@@ -1,0 +1,42 @@
+{
+  "name": "bunt-progress-bar",
+  "version": "0.0.1",
+  "copyright": "Copyright © 2023 Marina Egner",
+  "description": "Simple progress bar for CLI including a simple logger functionality while progress bar is shown",
+  "main": "dist/index.js",
+  "module": "ES2020",
+  "type": "module",
+  "scripts": {
+    "test": "tsc -b && mocha ../test/ --recursive",
+	"publish": "tsc -b && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SheepCreativeSoftware/bunt-progress-bar.git"
+  },
+  "keywords": [
+    "cli",
+    "progress-bar",
+    "logger"
+  ],
+  "author": "Marina Egner",
+  "engines": {
+    "node": ">=20.10.0"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SheepCreativeSoftware/bunt-progress-bar/issues"
+  },
+  "homepage": "https://github.com/SheepCreativeSoftware/bunt-progress-bar#readme",
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "eslint": "^8.56.0",
+    "mocha": "^10.2.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "buntstift": "^5.0.2"
+  }
+}
