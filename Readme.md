@@ -79,37 +79,43 @@ const progressBar = new ProgressBar(options);
 ```
 
 ### Options
-
 The object can have following options:
+
 #### options.isInteractiveSession
+
 Type: `boolean` Default: `true || process.stdout.isTTY`
 
 In interactive sessions the progress bar is shown in the terminal, while in non-interactive sessions (ussually not a terminal) it is hidden. By default, progress-bar-capture tries to detect whether a session is interative or not.
 To explicitly enable or disable interactive sessions, use the `isInteractiveSession` function
 
 #### options.maxNumber
+
 Type: `number` Default: `100`
 
 Defines the number that represents 100% in progress of the progress bar.
 
 #### options.minChangeOfValue
+
 Type: `number` Default: `1`
 
 By default progress-bar-capture tries only to print a new progress value to the terminal when using `update` if the value has change by more than the value of `minChangeOfValue`.
 This improves performance and prevents flickering.
 
 #### options.percentageFractionDigits
+
 Type: `number` Default: `1`
 
 You can change the number of digits after the decimal point, for the percentage value using `percentageFractionDigits`
 
 #### options.prefixText
+
 Type: `string` Default: `''`
 
 You can add an additional prefixed text to the progress bar (e.g. 'Progress')
 *If the string is empty, only the percentage will be displayed.*
 
 ### Chaining functions
+
 If you want to run a number of progress-bar-capture functions as a sequence, you can chain them into a single call.
 ```js
 // Start and set a progress
