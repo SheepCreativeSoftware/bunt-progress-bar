@@ -4,7 +4,7 @@
   "copyright": "Copyright © 2023 Marina Egner",
   "description": "Simple progress bar for CLI including a simple capture function that handles console input while progress bar is shown",
   "main": "dist/index.js",
-  "types": "dist/index.d.js",
+  "types": "dist/index.d.ts",
   "module": "ES2020",
   "type": "module",
   "scripts": {
