@@ -18,7 +18,7 @@
 ## Description
 Simple progress bar for CLI including a simple capture function that handles console input while progress bar is shown.
 
-[![Watch the video](https://github.com/SheepCreativeSoftware/progress-bar-capture/assets/33145691/8869c224-856b-4e78-821d-0db9260835b7)](https://github.com/SheepCreativeSoftware/progress-bar-capture/assets/33145691/a473b577-75d6-4c22-9d43-6a71f2d8e42c)
+![Watch the video](https://github.com/SheepCreativeSoftware/progress-bar-capture/assets/33145691/a473b577-75d6-4c22-9d43-6a71f2d8e42c)
 
 It captures following commands:
 ```js
