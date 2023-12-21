@@ -68,6 +68,8 @@ progressBar.finish();
 ```
 *Note: this also stops the capturing of console output*
 
+![Watch the video](https://github.com/SheepCreativeSoftware/progress-bar-capture/assets/33145691/a473b577-75d6-4c22-9d43-6a71f2d8e42c)
+
 ## Configuring progress-bar-capture
 The configuration is optional. Without any manual configuration, progress-bar-capture tries to use reasonable defaults.
 However, sometimes you may need to change it's configuration.  
@@ -76,7 +78,6 @@ You can apply a configuration when starting a new instance of progress-bar-captu
 ```js
 const progressBar = new ProgressBar(options);
 ```
-![Watch the video](https://github.com/SheepCreativeSoftware/progress-bar-capture/assets/33145691/a473b577-75d6-4c22-9d43-6a71f2d8e42c)
 
 ### Options
 
