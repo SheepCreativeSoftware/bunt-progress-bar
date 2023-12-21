@@ -109,3 +109,4 @@ test/
 # Ignore source
 src/
 
+tsconfig.json

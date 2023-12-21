@@ -1,4 +1,5 @@
 
+/** Calculates a factor for multiplication/division to get the given fraction */
 const getDigitFactor = (fractionDigits: number) => {
 	const factorBase = 10;
 	return Math.pow(factorBase, fractionDigits);
@@ -18,6 +19,8 @@ const mapRange = ( inputValue: number, { inputMin=0, inputMax, outputMin=0, outp
 	if(limit && inputValue >= inputMax) return outputMax.toFixed(fractionDigits);
 	if(limit && inputValue <= inputMin) return outputMin.toFixed(fractionDigits);
 	const factorDigit = getDigitFactor(fractionDigits);
+
+	// Wrong expectation from eslint
 	// eslint-disable-next-line no-extra-parens
 	const newValue = (inputValue - inputMin) * (outputMax - outputMin) / ((inputMax - inputMin) + outputMin);
 	return (Math.round(newValue * factorDigit) / factorDigit).toFixed(fractionDigits);

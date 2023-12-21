@@ -1,7 +1,7 @@
 interface ProgressBarOptions {
 	isInteractiveSession: boolean,
 	maxNumber: number,
-	minChangeOfBar: number,
+	minChangeOfValue: number,
 	percentageFractionDigits: number,
 	prefixText: string,
 }
