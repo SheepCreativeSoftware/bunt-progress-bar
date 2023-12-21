@@ -18,6 +18,8 @@
 ## Description
 Simple progress bar for CLI including a simple capture function that handles console input while progress bar is shown.
 
+[![Watch the video](https://github.com/SheepCreativeSoftware/progress-bar-capture/assets/33145691/f2e82e4e-3996-4a78-9e56-986be26c5aa7)](https://github.com/SheepCreativeSoftware/progress-bar-capture/assets/33145691/video.webm)
+
 ```cli
 Started Progress...
 Extracting files...
